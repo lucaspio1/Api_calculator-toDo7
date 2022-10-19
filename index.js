@@ -1,5 +1,5 @@
 const express = require('express')
-
+const Calculadora = require("./Controller/Rotas")
 
 const app = express()
 
@@ -7,4 +7,4 @@ app.listen("3000", ()=>{
     console.log("Iniciamos o Sistema!")
 })
 
-Calc.router(app)
+Calculadora.router(app)

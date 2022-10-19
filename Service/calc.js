@@ -3,7 +3,7 @@ class Calc{
         return parseInt(num1) + parseInt(num2)
     }
     static multiplicar(num1, num2){
-        return parseFloat(num1) * parseFloat(num2);
+        return parseInt(num1) * parseInt(num2);
     }
     static dividir(num1, num2){
         return parseInt(num1) / parseInt(num2)
