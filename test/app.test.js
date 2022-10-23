@@ -1,5 +1,6 @@
+const Calc = require("../Service/calc")
 
 test("Retorna a Soma dos números",()=>{
-    expect(conta.somar(A,B)).toBe(C)
+    expect(Calc.somar(2,3)).toBe(5)
  })
  
