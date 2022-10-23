@@ -21,7 +21,8 @@ no terminal digite "node .\index.js" e pressione ENTER.
 Você receberá a mensagem de Sistema Iniciado.
 
 Para realizar a operação de soma 
-Entre em "http://localhost:3000/soma/?primeiro=<NÚMERO1>&segundo=<NÚMERO2>"
+Entre em http://localhost:3000/soma/?primeiro=<NÚMERO1>&segundo=<NÚMERO2>
+
 Troque <NÚMERO1> e <NÚMERO2> pelos números que você queira para realizar a operação.
 
 Para realizar outras operações Troque a palavra soma por (divisao,subtraçao ou multiplicacao).
