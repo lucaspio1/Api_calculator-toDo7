@@ -7,7 +7,7 @@ class Calculadora{
         const numeros = Object.values(EntradaRota)
         const response = Calc.somar(...numeros)
         if (isNaN(response)) {
-            res.send(`<h1> Por Favor, Digite Apenas Números Inteiros. </h1>`)
+            res.send(`<h1> Por Favor, Digite Apenas Números. </h1>`)
         } else {
            res.send(`<h1>${response}</h1>`) 
         }
@@ -19,7 +19,7 @@ class Calculadora{
             const numeros = Object.values(EntradaRota)
             const response = Calc.multiplicar(...numeros)
               if (isNaN(response)) {
-            res.send(`<h1> Por Favor, Digite Apenas Números Inteiros. </h1>`)
+            res.send(`<h1> Por Favor, Digite Apenas Números. </h1>`)
         } else {
            res.send(`<h1>${response}</h1>`) 
         }
@@ -29,7 +29,7 @@ class Calculadora{
             const numeros = Object.values(EntradaRota)
             const response = Calc.dividir(...numeros)
               if (isNaN(response)) {
-            res.send(`<h1> Por Favor, Digite Apenas Números Inteiros. </h1>`)
+            res.send(`<h1> Por Favor, Digite Apenas Números. </h1>`)
         } else {
            res.send(`<h1>${response}</h1>`) 
         }
@@ -39,7 +39,7 @@ class Calculadora{
             const numeros = Object.values(EntradaRota)
             const response = Calc.subtrair(...numeros)
               if (isNaN(response)) {
-            res.send(`<h1> Por Favor, Digite Apenas Números Inteiros. </h1>`)
+            res.send(`<h1> Por Favor, Digite Apenas Números. </h1>`)
         } else {
            res.send(`<h1>${response}</h1>`) 
         }
